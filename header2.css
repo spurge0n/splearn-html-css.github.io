@@ -1,0 +1,128 @@
+.header {
+  background-color: white;
+  padding-left: 18px;
+  padding-right: 30px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon-hamburger {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(211, 211, 211, 0);
+  border: 8px solid rgba(211, 211, 211, 0);
+  border-radius: 40px;
+  margin-right: 14px;
+}
+
+.icon-hamburger:hover {
+  background-color: rgba(211, 211, 211, 1);
+  border: 8px solid rgba(211, 211, 211, 1);
+}
+
+.youtube-logo {
+  width: 84px;
+}
+
+.header-search {
+  max-width: 900px;
+  margin-right: 60px;
+  margin-left: 60px;
+  
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.search_bar {
+  height: 38px;
+  border-radius: 100px;
+  border: 1px solid lightgray;
+  padding-left: 16px;
+  font-size: 1rem;
+  flex: 1;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.search_bar::placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(165, 165, 165);
+}
+
+.icon-search {
+  width: 64px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -11px;
+}
+
+.icon-search:focus {
+  border: 1px solid rgb(41, 165, 248);
+}
+
+.icon-search-image, .icon-voice-image, .icon-upload, .icon-notifications {
+  width: 28px;
+  height: 28px;
+}
+
+.header-icon-notifications {
+  position: relative;
+}
+
+.notif-count {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  font-size: 11px;
+
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 8px;
+}
+
+.icon-voice-search {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(239, 239, 239);
+  border: none;
+  border-radius: 20px;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  justify-content: end;
+}
+
+.header-my_channel {
+  width: 32px;
+  height: 32px;
+}
+
+ 

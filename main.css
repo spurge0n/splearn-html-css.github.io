@@ -1,0 +1,116 @@
+.main {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.titlebar p{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 20px;
+}
+
+.image-thumbnail {
+  width: 100%;
+  margin-bottom: 16px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 2px whitesmoke;
+}
+
+.video-dp {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  column-gap: 12px;
+}
+
+.video-thumbnail {
+  position: relative;
+  margin: 0 0;
+  padding: 0 0;
+
+}
+
+.image-dp {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.timestamp {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.video-titlebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  row-gap: 4px;
+}
+
+.video-title {
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.video-channel, .video-stats {
+  font-size: .85rem;
+  color: rgb(69, 69, 69);
+}
+
+.product {
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-offer {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.product-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  align-content: center;
+}
+
+.product-overlay:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.product-cta {
+  padding: 6px 12px;
+  background-color: white;
+  border: 1px solid black;
+}
